@@ -1,0 +1,313 @@
+body {
+    font-family: 'Circular Std Book';
+}
+
+h2 {
+    font-family: 'Quanto' !important;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2f2f2f;
+}
+
+.arrow-shape {
+    position: relative;
+}
+
+.arrow-shape::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    top: 107%;
+    left: 50%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: -20px;
+    margin-left: -8px;
+}
+
+button:focus {
+    outline: none !important;
+	box-shadow: none!important;
+}
+
+/*===== Home Page =====*/
+/*== Navbar ==*/
+.bg-purple {
+    background: #4f154b;
+    opacity: 0.88;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 13px;
+}
+
+/*== Logo ==*/
+.navbar-brand img {
+    width: 160px;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: -5px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+/*== Home Part ==*/
+#home {
+    background: url(../images/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+	padding-top: 155px;
+	padding-bottom: 50px;
+}
+
+/*== Home Button ==*/
+.btn-cake {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#431240), color-stop(#611a5c), to(#431240));
+    background-image: linear-gradient(#431240, #611a5c, #431240);
+}
+
+.btn-map {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#c72d48), color-stop(#e0435e), to(#c72d48));
+    background-image: linear-gradient(#c72d48, #e0435e, #c72d48);
+}
+
+.btn-find {
+	background:#934529;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#9d4222), color-stop(#d5592c), to(#9d4222));
+    background-image: linear-gradient(#9d4222, #d5592c, #9d4222);
+}
+
+/*== Categories Part ==*/
+#categories .owl-nav {
+    display: inline-block;
+    color: #a1a1a1;
+    width: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+}
+
+.owl-prev {
+    left: -20px;
+    top: 65px;
+}
+
+.owl-next {
+    right: -20px;
+    top: 65px;
+}
+
+.owl-dots{
+	height: 0px;
+}
+
+/*== Works Part ==*/
+#works {
+    background: #4c1448;
+}
+
+#works img{
+	width: 120px;
+}
+#works p{
+	color: #fff;
+}
+.round-shape{
+	padding: 4px 9px;
+    border-radius: 50%;
+	color: #fff;
+	margin-right: 8px;
+}
+.round-shape1{
+	padding: 4px 10px;
+	background: #fff;
+	color: #4c1448;
+}
+.round-shape2{
+	background: #EF3F5F;
+}
+.round-shape3{
+	background: #934529;
+}
+
+/*== Service/What We Do Part ==*/
+#service {
+    background: url(../images/service.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#service .service2 {
+    width: 450px;
+    position: relative;
+}
+
+#service .service1 {
+    position: absolute;
+    right: 8px;
+    top: 0;
+}
+
+.btn-service{
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#431240), color-stop(#611a5c), to(#431240));
+    background-image: linear-gradient(#431240, #611a5c, #431240);
+}
+
+/*== Client Part ==*/
+#client {
+    background: url(../images/client-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#client img {
+    width: 130px;
+    height: 130px;
+}
+.client-border{
+	border: 2.5px solid #ef3f5f;
+    border-radius: 50%;
+}
+
+/*== Footer Top Part ==*/
+#footer-top {
+    background: #4C1448;
+}
+
+#footer-top .border-bottom {
+    border-color: #fff !important;
+}
+
+.button-group {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+}
+
+.button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 110px;
+    background: #000;
+}
+
+/*== Footer Widget Part ==*/
+#footer-widget {
+    background: #4C1448;
+}
+
+#footer-widget h5::after {
+    content: '';
+    display: block;
+    background: #ee3556;
+    width: 45px;
+    height: 2px;
+    margin-top: 20px;
+}
+
+/*== Footer Bottom Part ==*/
+#footer-bottom {
+    background: #000;
+}
+
+/*== Upper Button ==*/
+#upper {
+    position: fixed;
+    bottom: 12px;
+    right: 70px;
+    display: none;
+    background: #8f3b1c;
+    color: #fff;
+}
+
+/*===== About Us Page =====*/
+/*== About Us Part ==*/
+#about-us {
+    background: url(../images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*===== Home Page Media Query =====*/
+/*== Media Query Part ==*/
+@media(max-width: 991px) {
+    #service .service2 {
+        width: 310px;
+        margin-bottom: 30px;
+    }
+
+    #service .service1 {
+        right: -2px;
+        top: 85px;
+        width: 250px !important;
+    }
+}
+
+@media(max-width: 767px) {
+    .button-group {
+        margin: 0 auto;
+    }
+
+    #service .service1 {
+        right: 10px;
+        top: 85px;
+    }
+
+    .line-art {
+        display: none;
+    }
+
+    #works .details {
+        width: 70%;
+        margin: 0px auto;
+    }
+
+    .owl-prev {
+        top: 30px;
+    }
+
+    .owl-next {
+        top: 30px;
+    }
+}
+
+@media(max-width: 576px) {
+	.round-shape{
+		display: block;
+	}
+}
